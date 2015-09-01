@@ -1,7 +1,6 @@
 {
   "name": "osr-childprocess",
-  "version": "0.1.0",
-  "description": "",
+  "version": "0.1.1",
   "main": "index.js",
   "directories": {
     "test": "test"
@@ -22,11 +21,12 @@
     "url": "https://github.com/oscava/osr-childprocess/issues"
   },
   "dependencies": {
-    "argh":"*",
-    "zmq":"*",
-    "promise":"*",
-    "portfinder":"*",
-    "osr-class":"*"
+    "argh": "*",
+    "zmq": "*",
+    "promise": "*",
+    "portfinder": "*",
+    "osr-class": "*"
   },
-  "homepage": "https://github.com/oscava/osr-childprocess#readme"
+  "homepage": "https://github.com/oscava/osr-childprocess#readme",
+  "description": ""
 }
