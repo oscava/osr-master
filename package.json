@@ -1,0 +1,32 @@
+{
+  "name": "osr-childprocess",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "node test/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oscava/osr-childprocess.git"
+  },
+  "keywords": [
+    "childprocess"
+  ],
+  "author": "cava.zhang",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/oscava/osr-childprocess/issues"
+  },
+  "dependencies": {
+    "argh":"*",
+    "zmq":"*",
+    "promise":"*",
+    "portfinder":"*",
+    "osr-class":"*"
+  },
+  "homepage": "https://github.com/oscava/osr-childprocess#readme"
+}
