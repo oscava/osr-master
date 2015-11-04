@@ -1,10 +1,6 @@
 {
   "name": "osr-childprocess",
-<<<<<<< HEAD
   "version": "0.1.7",
-=======
-  "version": "0.1.2",
->>>>>>> refs/remotes/origin/master
   "main": "index.js",
   "directories": {
     "test": "test"
