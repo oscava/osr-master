@@ -1,32 +1,30 @@
 {
-  "name": "osr-childprocess",
-  "version": "0.1.7",
+  "name": "osr-child",
+  "version": "2.0.0",
+  "description": "",
   "main": "index.js",
   "directories": {
     "test": "test"
   },
   "scripts": {
-    "test": "node test/index.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/oscava/osr-childprocess.git"
+    "url": "git+https://github.com/oscava/osr-child.git"
   },
   "keywords": [
-    "childprocess"
+    "osr",
+    "child",
+    "process"
   ],
   "author": "cava.zhang",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/oscava/osr-childprocess/issues"
+    "url": "https://github.com/oscava/osr-child/issues"
   },
+  "homepage": "https://github.com/oscava/osr-child#readme",
   "dependencies": {
-    "promise": "*",
-    "osr-class": "*",
-    "urlencode": "*",
-    "debug": "*",
-    "ioredis": "*"
-  },
-  "homepage": "https://github.com/oscava/osr-childprocess#readme",
-  "description": "osr,childprocess,redis,mq"
+    "osr-class": "^0.1.8"
+  }
 }
