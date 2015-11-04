@@ -1,6 +1,6 @@
 {
   "name": "osr-childprocess",
-  "version": "0.1.5",
+  "version": "0.1.7",
   "main": "index.js",
   "directories": {
     "test": "test"
@@ -23,9 +23,9 @@
   "dependencies": {
     "promise": "*",
     "osr-class": "*",
-	"urlencode":"*",
-	"debug":"*",
-	"ioredis":"*"
+    "urlencode": "*",
+    "debug": "*",
+    "ioredis": "*"
   },
   "homepage": "https://github.com/oscava/osr-childprocess#readme",
   "description": "osr,childprocess,redis,mq"
