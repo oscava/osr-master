@@ -1,5 +1,5 @@
 {
-  "name": "osr-child",
+  "name": "osr-master",
   "version": "2.0.0",
   "description": "",
   "main": "index.js",
@@ -11,19 +11,19 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/oscava/osr-child.git"
+    "url": "git+https://github.com/oscava/osr-master.git"
   },
   "keywords": [
     "osr",
-    "child",
+    "master",
     "process"
   ],
   "author": "cava.zhang",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/oscava/osr-child/issues"
+    "url": "https://github.com/oscava/osr-master/issues"
   },
-  "homepage": "https://github.com/oscava/osr-child#readme",
+  "homepage": "https://github.com/oscava/osr-master#readme",
   "dependencies": {
     "osr-class": "^0.1.8"
   }
