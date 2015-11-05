@@ -1,11 +1,15 @@
 var Process = require("../").Process;
-
+var CODE = require("../").CODE;
 var Quant = Process.extends({
-	
-	start: function(){
+	onStart:function(){
+		var _this = this;
+		setTimeout(function(){
+			_this.exit();
+		},5000);
+	},
+	onConfig:function( config ){
 		
 	}
-	
 });
 
-new Quant().start();
+module.exports = exports = new Quant;

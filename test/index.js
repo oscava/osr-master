@@ -1,9 +1,10 @@
-var OsrChild = require("../");
+var OsrMaster = require("../");
 
-var child = new OsrChild();
+var master = new OsrMaster();
 
-var pid = child.fork(__dirname+"/demo.js");
+var child = master.fork(__dirname+"/demo.js");
 
-setTimeout(function(){
-	child.kill(pid);
-},2000);
+child.send(OsrMaster.CODE.CONFIG.CODE,{
+	appid:"appid...",
+	appkey:"appkey...",
+});
