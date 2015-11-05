@@ -13,13 +13,12 @@ child.send("config",{
 	appid:"appid",
 	appkey:"appkey"
 },function(config){
-	console.log(config);
+	
 });
 
 child.send("demo",{
 	name:"demo"
 },function(demo){
-	console.log("===",demo);
 });
 
 child.on("msg",function( data, handle ){
