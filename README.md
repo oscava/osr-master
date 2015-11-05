@@ -2,4 +2,4 @@
 
 ####How to use####
 
-	npm install osr-child
+	npm install osr-master
