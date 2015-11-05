@@ -1,7 +1,7 @@
 {
   "name": "osr-master",
-  "version": "2.0.0",
-  "description": "",
+  "version": "2.0.2",
+  "description": "npm install osr-master",
   "main": "index.js",
   "directories": {
     "test": "test"

@@ -3,9 +3,16 @@ var CODE = require("../").CODE;
 var Quant = Process.extends({
 	onStart:function(){
 		var _this = this;
-		this.on("config",function(config){
-			console.log("..config",config);
+		this.on("config",function(config,handle){
+			if(handle){
+				this.send(handle,"config-change"+handle);
+			}
 		});
+		this.on("demo",function(config,handle){
+			if(handle){
+				this.send(handle,"demo"+handle);
+			}
+		})
 		setTimeout(function(){
 			_this.exit();
 		},5000);
