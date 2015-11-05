@@ -20,4 +20,8 @@ child.send("demo",{
 	name:"demo"
 },function(demo){
 	console.log("===",demo);
+});
+
+child.on("msg",function( data, handle ){
+	this.send(handle,"====你说呢");
 })

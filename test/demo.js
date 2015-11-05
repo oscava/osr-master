@@ -6,6 +6,9 @@ var Quant = Process.extends({
 		this.on("config",function(config,handle){
 			if(handle){
 				this.send(handle,"config-change"+handle);
+				this.send("msg","mmmmm",function( data ){
+					console.log(":...",data);
+				});
 			}
 		});
 		this.on("demo",function(config,handle){
